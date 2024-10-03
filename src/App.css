@@ -1,0 +1,21 @@
+/* src/App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add custom styles here if needed */
+body {
+  @apply bg-gray-100 font-sans;
+}
+
+.container {
+  @apply mx-auto p-4;
+}
+
+.header {
+  @apply text-2xl font-bold text-center text-gray-800 mb-4;
+}
+
+.footer {
+  @apply text-center text-gray-600 mt-4 p-4 border-t border-gray-300;
+}
